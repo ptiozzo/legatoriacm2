@@ -1,0 +1,11 @@
+.titolo{font-size: 100px;}
+.sottotitolo{font-size: 70px;}
+.testo,p{font-size: 20px;}
+
+body{
+  max-width: 1400px;
+  margin: auto;
+  padding-top: 0;
+  background-color: var(--color-white);
+  color: var(--color-light_black);
+}

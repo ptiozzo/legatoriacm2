@@ -1,0 +1,53 @@
+html{
+  --color: #68D8B1;
+  --color-white: #fff;
+  --color-light_black: #212529;
+
+  --btn-warning: #ffc107;
+}
+
+.darkmode{
+  --color-white: #212529;
+  --color-light_black: #dee2e6;
+
+  --btn-warning: #e0a800;
+}
+
+
+/* ADVANCE DARK MODE */
+@font-face {
+  font-family: 'OpenDyslexic';
+  font-style: normal;
+  src: url('../fonts/opendyslexic/OpenDyslexic-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('../fonts/opendyslexic/OpenDyslexic-Bold.woff') format('woff');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('../fonts/opendyslexic/OpenDyslexic-Bold-Italic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('../fonts/opendyslexic/OpenDyslexic-Italic.woff') format('woff');
+  font-style: italic;
+}
+body.dyslexia{font-family: 'OpenDyslexic';font-size: 1rem!important;}
+.fa-sun{color: var(--btn-warning);}
+.btn.sun{background: #fff;}
+.fa-moon{color: #F5F3CE;}
+.btn.moon{background: #212529;}
+.fa-laptop,
+footer .btn{color: var(--color-light_black);}
+
+.transition,
+.transition *,
+.transition *:after,
+.transition *:before{
+  transition: all 1s ease-in-out !important;
+  transition-delay: 0 !important;
+}

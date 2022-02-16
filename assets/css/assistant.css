@@ -1,0 +1,62 @@
+/* ! ASSISTANT */
+
+/* Titoli */
+h1,.h1{font-size: 2.5rem}
+h2,.h2{font-size: 2rem}
+h3,.h3{font-size: 1.75rem}
+h4,.h4{font-size: 1.5rem}
+h5,.h5{font-size: 1.25rem}
+h6,.h6{font-size: 1rem}
+
+/* Margin */
+.m-0{margin: 0;}
+.m-1{margin: 0.25rem}
+.m-2{margin: 0.5rem}
+.m-3{margin: 1rem}
+.m-4{margin: 1.5rem}
+.m-5{margin: 3rem}
+
+/* Padding */
+.p-0{margin: 0;}
+.p-1{margin: 0.25rem}
+.p-2{margin: 0.5rem}
+.p-3{margin: 1rem}
+.p-4{margin: 1.5rem}
+.p-5{margin: 3rem}
+
+/* Bottoni */
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-group{
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+}
+.btn-group input{
+  position: absolute;
+clip: rect(0,0,0,0);
+pointer-events: none;
+}
+
+/* BOX-SIZING */
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;

@@ -1,0 +1,33 @@
+/*
+Theme Name: Legatoriacm2
+Theme URI: https://ptiozzo.net/
+Author: Paolo ptiozzo
+Author URI: https://ptiozzo.net
+Description: Tema per il sito legatoriacm.com
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: legcm2
+Tags:
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import "assets/css/assistant.css";
+@import "assets/css/darkmode.css";
+@import "assets/css/general.css";
+
+
+/* HAEDER */
+header{
+  height: 100px;
+}
+header ul li{
+  display: inline-block;
+}
+
+/* FOOTER */
+footer{
+  height: 100px;
+  background-color: pink;
+}
